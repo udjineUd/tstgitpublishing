@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<link href="http://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+		<link href="http://fonts.googleapis.com/css?family=Kreon" rel="stylesheet" type="text/css" />
+		<style>
+* {
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: underline;
+	color: #FF381A;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	line-height: 1.75em;
+	background: #A9D0D6;
+	font-size: 11.5pt;
+	color: #5A6466;
+}
+
+body,input {
+	font-family: Kreon, serif;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	text-transform: uppercase;
+	font-weight: normal;
+}
+
+h2 {
+	font-size: 1.5em;
+}
+
+h2,h3,h4 {
+	font-family: "Open Sans", sans-serif;
+	color: #2A3436;
+	margin-bottom: 1em;
+}
+
+h3 {
+	font-size: 1.25em;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+img.alignleft {
+	float: left;
+	margin: 5px 30px 20px 0;
+}
+
+img.aligntop {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+ul h4 {
+	margin-bottom: 0.35em;
+}
+
+a {
+	color: #2A3436;
+}
+
+.box {
+	margin: 0 0 50px 0;
+}
+
+#content {
+	padding: 0;
+	width: 615px;
+	margin: 0 0 0 285px;
+}
+
+#footer {
+	padding: 50px 0 80px 0;
+	text-align: center;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.7);
+	color: #587477;
+}
+
+#footer a {
+	color: #587477;
+}
+
+#header {
+	height: 130px;
+	padding: 40px;
+	position: relative;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	height: 130px;
+	line-height: 130px;
+}
+
+#logo a {
+	color: #2A3436;
+	text-decoration: none;
+}
+
+#logo h1 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 1em;
+}
+
+#menu {
+	line-height: 57px;
+	position: absolute;
+	right: 40px;
+	top: 76px;
+	height: 57px;
+	font-family: "Open Sans", sans-serif;
+}
+
+#menu a {
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #1C1C1C;
+	font-size: 1.2em;
+}
+
+#menu ul {
+	padding: 0 20px 0 20px;
+	list-style: none;
+}
+
+#menu ul li {
+	display: inline;
+	padding: 10px 10px 10px 10px;
+	margin: 0 8px 0 8px;
+}
+
+#menu ul li.active {
+	background: #F2EBDE;
+	border: solid 1px #BFB5A4;
+	box-shadow: inset 0px 0px 0px 1px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+}
+
+#menu ul li.active a {
+	color: #403B31;
+}
+
+#page {
+	margin: 0;
+	position: relative;
+	width: 900px;
+	padding: 20px 40px 0 40px;
+}
+
+#page .section-list {
+	padding-left: 0;
+	list-style: none;
+}
+
+#page .section-list li {
+	padding: 25px 0 25px 0;
+	clear: both;
+}
+
+#page ul {
+	list-style: none;
+}
+
+#page ul li {
+	border-top: solid 1px #DDD;
+	padding: 10px 0 10px 0;
+}
+
+#page ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#page-bottom {
+	padding: 40px 40px 0 40px;
+	color: #302F2C;
+	background: #F2EBDE;
+	position: relative;
+	width: 898px;
+	border-top: solid 1px #BFB5A4;
+	box-shadow: inset 0px 0px 0px 1px #fff;
+	text-shadow: 1px 1px 0px rgba(255,255,255,0.9);
+}
+
+#page-bottom a {
+	color: #1B1A18;
+}
+
+#page-bottom h2, #page-bottom h3, #page-bottom h4 {
+	color: #3F3D39;
+}
+
+#page-bottom ul {
+	list-style: none;
+}
+
+#page-bottom ul li {
+	border-top: solid 1px #BAB5AB;
+	padding: 10px 0 10px 0;
+}
+
+#page-bottom ul li.first {
+	border-top: 0;
+	padding-top: 0;
+}
+
+#page-bottom-content {
+	width: 615px;
+	margin: 0 0 0 285px;
+}
+
+#page-bottom-sidebar {
+	float: left;
+	width: 250px;
+}
+
+#sidebar {
+	position: relative;
+	left: -20px;
+	top: -20px;
+	float: left;
+	width: 240px;
+	background: #EEF5F6;
+	padding: 20px;
+	border: solid 1px #D6E0E2;
+	margin: 0 10px 0 0;
+	text-shadow: 1px 1px 0px rgba(255,255,255,1);
+	box-shadow: inset 0px 0px 0px 1px #fff;
+}
+
+#wrapper {
+	width: 978px;
+	position: relative;
+	background: #FFF;
+	margin: 0 auto 0 auto;
+	box-shadow: 0px 0px 150px 0px rgba(0,0,0,0.15);
+	border: solid 1px #82A7AD;
+	border-top: 0;
+}
+			iframe {
+				height: 100vh !important;
+			}
+		</style>
+	</head>
+	<body>
+		<script src=""></script><span id="span">
+		<div id="wrapper">
+			<div id="header">
+				<div id="logo">
+					<h1><a href="#">Welcome to แว่นตา</a></h1>
+				</div>
+				<div id="menu">
+					<ul>
+						<li><a href="#">Homepage</a></li>
+						<li><a href="contact.html">Contacts</a></li>
+						<li><a href="privacy-policy.html">Privacy policy</a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="page">
+				<div id="sidebar" style="width: fit-content;">
+					<div class="box">
+						<p>
+							<img src="img/b72a85b90c95d388f5d76af45092bd0c.jpg" alt="" style="width: 315px;">
+						</p>
+					</div>
+					
+				</div>
+				<div id="content">
+					<span> หน้าแรก</span> เลือกห้อง<i> arrow_drop_down</i> แท็ก กิจกรรม อื่นๆ<i> arrow_drop_down</i> <i> apps</i> <i> search</i> <i> </i> ตั้งกระทู้ เข้าสู่ระบบ / สมัครสมาชิก <i> </i> <i> menu</i> <i> search</i> <i> </i> <i> menu</i> <span> account_circle</span> <span> เข้าสู่ระบบ / สมัครสมาชิก</span> <span> </span> <span> หน้าแรก</span> <span> </span> <span> เลือกห้อง</span> <span> </span> <span> แท็ก</span> <span> </span> <span> คลับ</span> <span> </span> <span> กิจกรรม</span> <span> </span> <span> กฎ กติกา และมารยาท</span> <span> </span> <span> คำแนะนำการโพสต์</span> <span> </span> <span> ติดต่อทีมงานพันทิป</span> <i> keyboard_arrow_down</i> <span> ติดต่อฝ่ายสมาชิก</span> <span> แจ้งปัญหาการใช้งาน</span> <span> ล็อกอินองค์กร / Expert Brand</span> <span> ติดต่อลงโฆษณา</span> <span> ร่วมงานกับ Pantip</span> <span> ติดตามพันทิป</span> <i> </i> <i> </i> แท็ก แว่นตา <h3> แว่นตา</h3> <span> 5,868 กระทู้</span> <span> 65 ผู้ติดตาม</span> Pantip Trend กระทู้ล่าสุด เลือกประเภทกระทู้ กระทู้ทั้งหมด คลังกระทู้โปรด<i> </i> ถามตอบ พูดคุย รีวิว โพล ข่าว ซื้อขาย <i> </i> <i> </i> <i> </i> กระทู้ทั้งหมด คลังกระทู้โปรด ถามตอบ พูดคุย รีวิว โพล ข่าว ซื้อขาย <h2> <i> </i> สวมใส่แว่นสายตาแล้วมอง ภาพนูน-เอียง เกิดจากอะไร และแก้ปัญหายังไง ?????? </h2> <span> </span> แว่นตา แพทย์ สุขภาพกาย <h5> สมาชิกหมายเลข 3581864 </h5> <span> 19 ชั่วโมง</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> แก้ไขหนังตาตก กล้ามเนื้อตาไม่มีแรง หมอที่ไหนรับทำบ้าง </h2> <span> </span> โรคตา แว่นตา โรงพยาบาล ศัลยกรรมความงาม <h5> สมาชิกหมายเลข 5744455 </h5> <span> 13 ก.ย</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ตัดแว่นสายตาสั้นสองข้างไม่เท่ากัน </h2> <span> </span> แว่นตา โรคตา <h5> สมาชิกหมายเลข 3474301 </h5> <span> 13 ก.ย</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ควรเลือกแว่นแบบไหนดี? </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 5852469 </h5> <span> 12 ก.ย</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สงสัยมานาน ทำไมแว่นตาราคาแพงจัง ทั้งๆที่ไม่มีอะไรเลย </h2> <span> </span> แฟชั่นเกาหลี แว่นตา <h5> okb </h5> <span> 12 ก.ย</span> <span> <i> message</i> 8</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ตาขี้เกียจ เปลี่ยนเลนส์แว่นดีไหม? </h2> <span> </span> โรคตา แว่นตา แพทย์ <h5> สมาชิกหมายเลข 5296377 </h5> <span> 11 ก.ย</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> พอดีเราจะตัดแว่นแต่ไม่รู้จะตัดที่ไหนดี </h2> <span> </span> จังหวัดนครปฐม แว่นตา Oakley แว่นตากันแดด โรคตา <h5> สมาชิกหมายเลข 5787970 </h5> <span> 10 ก.ย</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> การถนอมแว่นตา ทุกท่านทำยังไงกันบ้างมาแชร์กันครับ </h2> <span> </span> แว่นตากันแดด แว่นตา แฟชั่น <h5> jeng_eyeSight </h5> <span> 10 ก.ย</span> <span> <i> message</i> 4</span> <span> <i> add_box</i> 1</span> <h2> <i> </i> ตามหาร้ายขายส่งแว่นสายตา แว่นตาแฟชั่น </h2> <span> </span> ตลาดสำเพ็ง แว่นตา แว่นตากันแดด <h5> สมาชิกหมายเลข 4838137 </h5> <span> 8 ก.ย</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สายตาสั้น เวลาใช้นิ้วดึงหางตาทำให้มองเห็นภาพชัดขึ้น??? </h2> <span> </span> โรคตา แว่นตา เลสิก <h5> สมาชิกหมายเลข 3825587 </h5> <span> 8 ก.ย</span> <span> <i> message</i> 4</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> เปิดร้านตัดแว่น ยุคนี้ยังน่าสนใจอยู่ไหม </h2> <span> </span> เจ้าของธุรกิจ โรคตา การตลาด งานขาย แว่นตา <h5> สมาชิกหมายเลข 6019250 </h5> <span> 6 ก.ย</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> หาซื้อแว่นตาแฟชั่นแบบนี้ได้จากไหนคะ </h2> <span> </span> แฟชั่นโชว์ แว่นตากันแดด แฟชั่น แว่นตา แฟชั่นเกาหลี <h5> สมาชิกหมายเลข 5248660 </h5> <span> 5 ก.ย</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ขอถามเกี่ยวกับตาเป็นโรคต้อหน่อยค่ะ รบกวนผู้รู้เข้ามาตอบทีนะคะ </h2> <span> </span> โรคตา สุขภาพกาย โรคในผู้สูงอายุ แว่นตา แพทย์ <h5> สมาชิกหมายเลข 4968611 </h5> <span> 5 ก.ย</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> มีกรอบแว่นอยู่แล้วถ้าจะไปตัดแว่นได้มั้ย? </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 6095056 </h5> <span> 4 ก.ย</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> แว่นตากันแดด </h2> <span> </span> แว่นตากันแดด แว่นตา แฟชั่น <h5> สมาชิกหมายเลข 6081407 </h5> <span> 4 ก.ย</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> อยากทราบว่ากรอบแว่นที่คุณไก่ (นักข่าว) ใส่อยู่ในภาพนี้คือยี่ห้ออะไรครับ </h2> <span> </span> แว่นตา ผู้ประกาศข่าว นักข่าว ภาษิต อภิญญาวาท (ไก่) <h5> สมาชิกหมายเลข 5440315 </h5> <span> 4 ก.ย</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ตัดแว่นสายตาเอียงนานไหมครับ และแพงมากไหม </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 6093406 </h5> <span> 3 ก.ย</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ตัดแว่นที่ไหน ใช้เลนส์อะไรดีคะ </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 3095290 </h5> <span> 3 ก.ย</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สานตาสั้นเอียงไม่เท่ากันต้องตัดแว่นยังไง </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 4962700 </h5> <span> 2 ก.ย</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ขออนุญาติขอสอบถามผู้ชายที่เคยทำงานร้านแว่นท็อปเจริญครับ </h2> <span> </span> มนุษย์เงินเดือน กรุงเทพมหานคร แว่นตา งานขาย <h5> PutInBlank </h5> <span> 2 ก.ย</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> แว่นกรองแสงดีไหมน้าาา?? </h2> <span> </span> โรคตา สุขภาพกาย แว่นตา จอภาพ (Monitor) <h5> สมาชิกหมายเลข 6057646 </h5> <span> 1 ก.ย</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สายตาเอียง ซ้าย174 ขวา 100 ถือว่าหนักมั้ยคะ </h2> <span> </span> โรคตา คอนแทคเลนส์ แว่นตา <h5> สมาชิกหมายเลข 6091135 </h5> <span> 1 ก.ย</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> แว่นกรองแสงดีอย่างไร </h2> <span> </span> โรคตา สุขภาพกาย จอภาพ (Monitor) แว่นตา Office Syndrome <h5> สมาชิกหมายเลข 6057646 </h5> <span> 31 ส.ค</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ช่วยแนะนำร้านแว่นตา progressive ให้หน่อยครับ </h2> <span> </span> แว่นตา ผู้สูงอายุ โรคตา <h5> a_andrew </h5> <span> 31 ส.ค</span> <span> <i> message</i> 5</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ตัดแว่นมาใหม่ แต่มองตัวอักษรบนมือถือไม่ค่อยชัดในระยะใกล้ๆแบบเดิม แบบนี้ปกติไหมครับ? </h2> <span> </span> แว่นตา โรคตา แพทย์ ปัญหาชีวิต <h5> สมาชิกหมายเลข 1680803 </h5> <span> 29 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> [CR] รีวิวตัดแว่นครั้งแรกในชีวิต ที่ร้านตัดแว่นในสยาม </h2> <span> </span> แว่นตา โรคตา SIAM SQUARE I แว่นตากันแดด <h5> พาไปหน่อย </h5> <span> 28 ส.ค</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ตาผมมัวข้างนึงเป็นอะไรหรอครับ </h2> <span> </span> แว่นตา โรคตา <h5> สมาชิกหมายเลข 5712565 </h5> <span> 28 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> เลนส์ โปรเกรสซีฟ ? </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 3901373 </h5> <span> 28 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สัดส่วนหน้าเท่านี้ คือหน้ารูปอะไรคะ </h2> <span> </span> แว่นตา โรคตา ความงาม <h5> สมาชิกหมายเลข 5368314 </h5> <span> 28 ส.ค</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> แว่นกรองแสงดีอย่างไร </h2> <span> </span> โรคตา สุขภาพกาย แว่นตา แว่นตากันแดด โทรศัพท์มือถือ <h5> สมาชิกหมายเลข 6057646 </h5> <span> 28 ส.ค</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> วัดสายตา ตัดคอนแทคเลนส์ ที่แว่นท็อปเจริญ จ่ายครั้งแรกเท่าไหร่ครับ </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 5399313 </h5> <span> 27 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> [SR] รีวิว แว่นสายตา แว่นกรองแสง แม่ - ลูก จากแบรนด์ Eyeguard </h2> <span> </span> การเลี้ยงลูก สังคมคุณแม่ แว่นตา <h5> ladymods </h5> <span> 26 ส.ค</span> <span> <i> message</i> 5</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> มีใครเคยตัดแว่นร้านเมโทรที่ฟิวมั้งครับ </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 1217914 </h5> <span> 26 ส.ค</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> อยากถามว่าถ้าการสัมภาษณ์สไตย์นี้ คือผ่านหรือไม่ผ่านอ่ะ?แว่นท๊อปเจริญ </h2> <span> </span> สัมภาษณ์งาน แว่นตา <h5> สมาชิกหมายเลข 6083299 </h5> <span> 26 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> แว่นสายตา​ SPH​ -​125​ เลนส์​สีฟ้า​ราคา​ 2000​ แพงไหมครับ </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 1659312 </h5> <span> 26 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ทำจมูกมา1ปี ถ้าปวดตรงสันระหว่างตาควรแก้เลยไหม ? </h2> <span> </span> ศัลยกรรมความงาม แว่นตา <h5> สมาชิกหมายเลข 6081884 </h5> <span> 25 ส.ค</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> วัดสายตาที่ท็อปเจริญ​โอเคมั้ยคะ </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 3640628 </h5> <span> 25 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> กรอบแว่นของอะไรครับ </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 1217914 </h5> <span> 24 ส.ค</span> <span> <i> message</i> 0</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สายตาสั้นข้างเดียว </h2> <span> </span> แว่นตา ปัญหาวัยรุ่น <h5> สมาชิกหมายเลข 2147836 </h5> <span> 24 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ซื้อคอนแทคสายตาได้ที่ไหน </h2> <span> </span> แว่นตา คอนแทคเลนส์ <h5> สมาชิกหมายเลข 6080333 </h5> <span> 24 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> มีกรอบแว่นอยู่แล้ว จะทำเลนส์อย่างเดียว แนะนำที่ไหนครับ </h2> <span> </span> แว่นตา ปัญหาชีวิต สุขภาพกาย Men&#x27;s Fashion <h5> สมาชิกหมายเลข 5592647 </h5> <span> 24 ส.ค</span> <span> <i> message</i> 4</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ใครเซียนเรื่องแว่นตาบ้างครับ </h2> <span> </span> แว่นตา แว่นตากันแดด แฟชั่น <h5> สมาชิกหมายเลข 3280871 </h5> <span> 23 ส.ค</span> <span> <i> message</i> 1</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สวมแว่นเซฟตี้ทุกครั้งนะครับ เวลาทำงานเกี่ยวกับอะไรที่หมุนๆ หรือกระเด็นได้ </h2> <span> </span> สุขภาพกาย อุปกรณ์รักษาความปลอดภัย แว่นตา งานโรงงาน เครื่องมือช่าง <h5> สมาชิกหมายเลข 5054354 </h5> <span> 23 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 1</span> <h2> <i> </i> ทำเรซิกตาที่โรงพยาบาลไหนดี </h2> <span> </span> โรคตา เลสิก ศัลยกรรมความงาม โรงพยาบาล แว่นตา <h5> สมาชิกหมายเลข 1091514 </h5> <span> 23 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ถ้าจะซื้อคอนแท็คเลนส์สายตา ต้องตัดแว่นก่อนมั้ยคะ </h2> <span> </span> แว่นตา คอนแทคเลนส์ <h5> สมาชิกหมายเลข 6078639 </h5> <span> 23 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> สายตาสั้น500 ถ้าไปตัดแว่นจะกรอบหนามั้ยคะ </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 6078467 </h5> <span> 23 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> เปลี่ยนเลนส์ใหม่ กรอบแว่นเดิมที่ ท็อปเจริญ เสียค่าใช้จ่ายมั้ย? </h2> <span> </span> แว่นตา ปัญหาชีวิต ชีวิตวัยรุ่น ปัญหาวัยรุ่น <h5> สมาชิกหมายเลข 5589500 </h5> <span> 22 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> หมอตาหรือหมอแว่น </h2> <span> </span> แพทย์ โรงพยาบาล แว่นตา โรคตา <h5> สมาชิกหมายเลข 5368314 </h5> <span> 21 ส.ค</span> <span> <i> message</i> 3</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ไปตัดแว่นมาแล้ว แต่อยากเพิ่มเลนส์ออโต้ ได้มั้ยคะ? </h2> <span> </span> แว่นตา ชีวิตวัยรุ่น <h5> สมาชิกหมายเลข 5589500 </h5> <span> 21 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <h2> <i> </i> ใครเคยตัดแว่นกับ cc vision บ้างคะ วันนี้โดนไป 5900 </h2> <span> </span> แว่นตา <h5> สมาชิกหมายเลข 4417946 </h5> <span> 20 ส.ค</span> <span> <i> message</i> 2</span> <span> <i> add_box</i> 0</span> <span> กำลังโหลดข้อมูล โปรดรอสักครู่</span> ไม่พบข้อมูล ข่าวประชาสัมพันธ์ กฎกติกา ลงโฆษณา สมัครงาน ติดต่อทีมงาน Bloggang Pantipmarket Pantown ติดต่อทีมงานพันทิป ติดต่อลงโฆษณา
+				</div>
+				<br class="clearfix" />
+			</div>
+			<div id="page-bottom">
+				National Highway 5, Krong Kampong Chhnang <br>
+juw.kh@gmail.com <br>
+088 224 4548, 088 667 8322, 088 525 9164
+			</div>
+		</div>
+	</span>
+	</body>
+</html>
